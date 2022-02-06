@@ -1,0 +1,413 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>HTML Email - Invoice for Purchase</title>
+   <style type="text/css">
+   	@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+      table {
+         border-spacing: 0;
+      }
+      td {
+         padding: 0;
+      }
+      p {
+         font-size: 15px;
+         font-family: 'Lato';
+      }
+
+      a {
+         color: #0a48cc;
+         text-decoration: underline;
+         font-weight: normal;
+      }      
+
+     /*responsive img*/
+      img {
+         border: 0;
+         max-width: 100% !important;
+         height: auto !important;
+
+      }
+  
+    
+		@media screen and (max-width: 600px) {            
+               
+               
+        p.statement{
+           line-height: 35px!important;
+        }
+
+        .main_table_style{
+
+            border-style: none!important;     
+}
+
+       
+      }
+      @media screen and (max-width: 400px) {
+         .table_pad {
+            padding-left: 0!important;
+         }
+
+         .table_font p {
+            font-size: 13px!important;      
+         
+         }
+
+         .address_info{
+            padding-left: 15px!important;
+
+
+         }
+            
+         
+      }
+
+     
+      
+   </style>   
+
+	<!--[if (gte mso 9)|(IE)]>
+		<style type="text/css">
+			table {border-collapse: collapse !important;}
+		</style>
+	<![endif]-->
+	
+</head>
+
+
+
+<body style="Margin:0;padding:0;min-width:100%;background-color:#ffffff;">
+
+   <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+         body {background-color:#ffffff!important;}
+         body, table, td, p, a {font-family: sans-serif, Arial, Helvetica!important;}
+      </style>
+   <![endif]-->
+
+   <center style="width: 100%;table-layout: fixed;background-color:#ffffff;padding: 60px 0 40px 0;">
+      
+      <div style="max-width: 600px;background-color: #ffffff;">
+
+         <!-- Preheader (remove comment) -->
+         <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
+            <!-- Add Preheader Text Here (85-100 characters in length) -->
+            <p>Your Order Summary from Mystical Universe </p>
+         </div>
+         <!-- End Preheader (remove comment) -->
+
+        
+         <!--[if (gte mso 9)|(IE)]>
+            <table width="600" align="center" style="border-spacing:0;color:#565656;" role="presentation">
+            <tr>
+            <td style="padding:0;">
+         <![endif]-->
+
+         <table class="main_table_style" align="center" style="border-spacing:0;color:#565656;font-family: 'Lato', sans-serif, Arial, Helvetica!important;
+         background-color: #fafdfe;Margin:0;padding:0;width: 100%;max-width: 600px;border: 1px solid #000000;" role="presentation">
+
+
+<!-- START HEADER LOGO -->
+<tr>
+   <td style="padding:0;">
+      <table width="100%" style="border-spacing:0;background-color: #ffffff;" role="presentation">
+         <tr>
+            <td style="padding:10px 20px 10px 20px; width:100%;text-align:center; ">
+
+               <a href="#"><img src="https://htmlemaildev.site/transactional2/images/earthlogo.jpg" alt="Earth Logo" width="100" style="border-width:0;"></a>
+
+            </td >
+         </tr>
+      </table>
+   </td>
+</tr>
+<!-- END HEADER -->
+
+
+<!-- START ACCOUNT INFO -->
+<tr>
+   <td style="padding:0;">
+      
+      <table width="100%" style="border-spacing:0;" role="presentation">
+         <tr>
+            <td class="padding content" style="background-color:#ffffff;width:100%;text-align:center;padding: 35px 10px 45px 10px;">
+               
+               <p class="statement" style="color:#000000;font-size:26px;line-height:16px;font-weight:normal;Margin: 0;">The Mystical Universe</p>
+                             
+            </td>
+         </tr>
+         <tr>
+            <td class="padding content" style="background-color:#ffffff;width:100%;text-align:center;padding: 5px;">
+               
+               <p class="statement" style="color:#000000;font-size:24px;line-height:24px;font-weight:normal;Margin: 0;">We've received your order.</p>
+                             
+            </td>
+         </tr> <tr>
+            <td class="padding content" style="background-color:#ffffff;width:100%;text-align:center;padding: 20px 10px 35px 10px;">
+               
+               <p class="statement" style="color:#000000;font-size:20px;line-height:16px;font-weight:normal;Margin: 0;">We'll let you know when your items have shipped.</p>
+                             
+            </td>
+         </tr> 
+            
+      
+
+      </table>
+   </td>
+</tr>
+<!-- END ACCOUNT INFO -->
+
+<!-- START ORDER DATE & NUM INFO -->
+<tr>
+   <td style="padding: 35px 0 5px 0;text-align: left;">
+      <table width="100%" style="border-spacing:0;border-bottom: 1px solid #c9c9c9;padding-bottom: 25px;" role="presentation" >
+       
+                           
+                           <tr>
+                              <td style="padding-left:50px;">
+                                 <p style="font-size: 16px;font-weight: normal;Margin: 0;">Order No. 11031</p>
+                              </td>
+                              <td style="padding-left:50px;">
+                                 <p style="font-size: 16px;font-weight: normal;Margin: 0;">Placed on February, 20th, 2022</p>
+                              </td>
+                           </tr>
+
+                           
+      </table>
+   </td>
+</tr>
+<!-- END ORDER DATE & NUM INFO -->
+
+
+<!-- START FINANCIAL TABLE ONE COLUMN -->
+<tr>
+   <td style="padding: 35px 0 5px 0;text-align: left;">
+      <table class="table_font address_info" width="100%" style="border-spacing:0;border-bottom: 1px solid #c9c9c9;padding-bottom: 25px;" role="presentation" >
+       
+                           
+                           <tr>
+                              <td class="table_pad" style="padding-left:50px; padding-bottom: 15px;">
+                                 <p style="font-size: 16px;font-weight: normal;Margin: 0;">Billing Information</p>
+                              </td>
+                              <td class="table_pad" style="padding-left:50px;padding-bottom: 15px;">
+                                 <p style="font-size: 16px;font-weight: normal;Margin: 0;">Shipping Information</p>
+                              </td>
+                           </tr>
+
+                           <tr>
+                              <td class="table_pad" style="padding-left:50px;padding-bottom: 15px;">
+                                 <p style="font-size: 16px;font-weight: normal;Margin: 0;">Paid with PayBuddy</p>
+                              </td>
+                              <td class="table_pad" style="padding-left:50px;padding-bottom: 15px;">
+                                 <p style="font-size: 16px;font-weight: normal;Margin: 0;">Standard</p>
+                              </td>
+                           </tr>   
+                           
+                           <tr>
+                              <td class="table_pad" style="padding-left:50px;">
+                                 <p style="font-size: 16px;font-weight: normal;Margin: 0;">
+                                    Jane Dandy<br />
+                                    1111 32nd Street<br />
+                                    NOWHERE, TEXAS<br />
+                                    UNITED STATES<br />
+                                    1-800-888-8888 <br />
+                                    <a href="#">View Invoice</a>
+                                 
+                                 </p>
+                              </td>
+                              <td class="table_pad" style="padding-left:50px;">
+                                 <p style="font-size: 16px;font-weight: normal;Margin: 0;">
+                                    Jane Dandy<br />
+                                    1111 32nd Street<br />
+                                    NOWHERE, TEXAS<br />
+                                    UNITED STATES<br />
+                                    1-800-888-8888 <br />
+                                    <a href="#">janedandy@placeholder.com</a>
+                                                                
+                                 
+                                 
+                                 </p>
+                              </td>
+                           </tr>                           
+                    
+      </table>
+   </td>
+</tr>
+<!-- END FINANCIAL TABLE ONE COLUMN -->
+
+
+<!-- START FINANCIAL TABLE ONE COLUMN -->
+<tr>
+   <td style="padding: 15px 0 5px 0;">
+      <table class="table_font" width="100%" style="border-spacing:0;border-bottom: 1px solid #c9c9c9;padding-bottom: 25px;" role="presentation" >
+       
+                           
+                           <tr>
+                              <th colspan="4" style="padding:5px;width: 100%;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">Order Summary</p>
+                              </th>
+                              
+                           </tr>
+
+                           <tr>
+                              <td style="padding:5px;width: 20%;" >
+                                 <a href="#"><img src="https://htmlemaildev.site/transactional2/images/bookcover.jpg" alt="Book Image" width="150" style="border-width:0;"></a>
+                              </td>
+                              <td style="padding:5px;width: 30%;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">BOOK: Magical Mystic Astrology of the Univere and the Stars</p>
+
+                              </td>
+                              <td style="padding:5px;width: 25%;text-align: center;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">Qty: 1</p>
+                              </td>
+                              <td style="padding:5px;width: 25%;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">$36.00</p>
+                              </td>
+
+                           </tr>   
+                                                    
+                    
+      </table>
+   </td>
+</tr>
+<!-- END FINANCIAL TABLE ONE COLUMN -->
+
+
+<!-- START FINANCIAL TABLE ONE COLUMN -->
+<tr>
+   <td style="padding: 15px 0 5px 0;">
+      <table class="table_font" width="100%" style="border-spacing:0;border-bottom: 1px solid #c9c9c9;padding-bottom: 25px;" role="presentation" >
+                                 
+                       
+
+                           <tr>
+                              <td style="padding:5px;width: 20%;" >
+                              </td>
+                              <td style="padding:5px;width: 30%;">
+
+                              </td>
+                              <td style="padding:5px;width: 25%;text-align: left;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">Subtotal</p>
+                              </td>
+                              <td  style="padding-right:45px;width: 25%;text-align: right;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">$36.00</p>
+                              </td>
+
+                           </tr>   
+                           <tr>
+                              <td style="padding:5px;width: 20%;" >
+                              </td>
+                              <td style="padding:5px;width: 30%;">
+
+                              </td>
+                              <td style="padding:5px;width: 25%;text-align: left;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">Shipping</p>
+                              </td>
+                              <td  style="padding-right:45px;width: 25%;text-align: right;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">$0.00</p>
+                              </td>
+
+                           </tr>   
+                           <tr>
+                              <td style="padding:5px;width: 20%;" >
+                              </td>
+                              <td style="padding:5px;width: 30%;">
+
+                              </td>
+                              <td style="padding:5px;width: 25%;text-align: left;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">Tax</p>
+                              </td>
+                              <td  style="padding-right:45px;width: 25%;text-align: right;border-bottom: 1px solid #c9c9c9;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">$1.80</p>
+                              </td>
+
+                           </tr>   
+                           <tr>
+                              <td style="padding:5px;width: 20%;" >
+                              </td>
+                              <td style="padding:5px;width: 30%;">
+
+                              </td>
+                              <td style="padding:5px;width: 25%;text-align: left; ">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">Total</p>
+                              </td>
+                              <td  style="padding-right:45px;width: 25%;text-align: right;">
+                                 <p style="font-size: 18px;font-weight: normal;Margin: 0;">$37.80</p>
+                              </td>
+
+                           </tr>   
+
+
+      </table>
+   </td>
+</tr>
+<!-- END FINANCIAL TABLE ONE COLUMN -->
+
+
+
+<!-- START DISCLAIMER -->
+<tr>
+   <td style="padding:0;">
+      <table width="100%" style="border-spacing:0;background-color:#ffffff;" role="presentation">
+         <tr>
+            <td style="padding: 0 20px 0 20px;width:100%;text-align:left;font-size: 16px;color: #C4C7C9;">
+
+               <p style="font-size:16;line-height:16px;color: #474747;">Need Assistance? Contact us.
+
+
+               </p>
+                 
+                  <p style="font-size:16px;line-height:16px;color: #474747;">   
+                     We'll do everything we can to make sure you have a great experience with us.<br />
+                     Call us: 1-780-481-7238<br />
+                     Email us: <br />
+                      
+                      
+                      <a href="#" target="_blank">help@mysticaluniversebooks.com</a>.   
+   
+                  </p>
+
+                  <p style="font-size:16px;line-height:16px;color: #474747;">   
+                     This email was sent by The Alternative Universe
+
+      
+                  </p>                         
+
+               <p style="font-size:16px;line-height:16px;color: #474747;">   
+                  <a href="#" target="_blank">mysticaluniversebooks.com</a>.   
+
+               </p>
+
+               <p style="font-size:16px;line-height:16px;color: #474747;">   
+                  You've received this message because you've registered or accepted our invitation to receive e-mail from MYSTICAL UNIVERSE. 
+                  If you'd like to stop receiving emails, click here to <a href="#" target="_blank">UNSUBSCRIBE</a>from our e-mail list.    
+
+               </p>
+
+
+            </td>
+         </tr>
+      </table>
+   </td>
+</tr>
+<!-- END DISCLAIMER -->
+
+         </table>
+
+         <!--[if (gte mso 9)|(IE)]>
+         </td>
+         </tr>
+         </table>
+         <![endif]-->
+
+         
+      </div>
+   </center>
+
+</body>
+</html>
